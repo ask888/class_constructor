@@ -1,0 +1,31 @@
+/* basic styles */
+*{
+    box-sizing: border-box;
+}
+.clearfix::after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+
+/* header end */
+
+.hero-card{
+    width: 200px;
+    height: 350px;
+    display: inline-block;
+    border: 1px solid #a4a4a4;
+    vertical-align: top;
+    margin: 30px;
+    text-align: center;
+    padding: 20px;
+}
+/*.hero-card div{*/
+    /*text-align: left;*/
+/*}*/
+.hero-img{
+    width: 100px;
+    height: 100px;
+
+}
